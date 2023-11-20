@@ -1,0 +1,67 @@
+# Ultralytics YOLO 🚀, AGPL-3.0 license
+# COCO128 dataset https://www.kaggle.com/ultralytics/coco128 (first 128 images from COCO train2017) by Ultralytics
+# Example usage: yolo train data=fashionpedia.yaml
+# parent
+# ├── ultralytics_train
+# └── datasets
+#     └── coco128  ← downloads here (7 MB)
+
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: /home/justsomeone/data/public/fashionpedia  # dataset root dir
+train: images/train  # train images (relative to 'path') 128 images
+val: images/val  # val images (relative to 'path') 128 images
+test:  # test images (optional)
+
+# Classes
+names:
+  0: shirt, blouse
+  1: top, t-shirt, sweatshirt
+  2: sweater
+  3: cardigan
+  4: jacket
+  5: vest
+  6: pants
+  7: shorts
+  8: skirt
+  9: coat
+  10: dress
+  11: jumpsuit
+  12: cape
+#  13: glasses
+#  14: hat
+#  15: headband, head covering, hair accessory
+#  16: tie
+#  17: glove
+#  18: watch
+#  19: belt
+#  20: leg warmer
+#  21: tights, stockings
+#  22: sock
+#  23: shoe
+#  24: bag, wallet
+#  25: scarf
+#  26: umbrella
+#  27: hood
+#  28: collar
+#  29: lapel
+#  30: epaulette
+#  31: sleeve
+#  32: pocket
+#  33: neckline
+#  34: buckle
+#  35: zipper
+#  36: applique
+#  37: bead
+#  38: bow
+#  39: flower
+#  40: fringe
+#  41: ribbon
+#  42: rivet
+#  43: ruffle
+#  44: sequin
+#  45: tassel
+
+
+## Download script/URL (optional)
+#download: https://ultralytics.com/assets/coco128.zip
