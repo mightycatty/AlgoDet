@@ -1,0 +1,30 @@
+.idea/
+*.egg-info/
+*/__pycache__/*
+# model
+*.mnn
+#*.pb
+*.onnx
+*.h5
+*.index
+*.meta
+*.ckpt.*
+*.tflite
+*.cpython*
+# files
+*.jpg
+*.png
+*.mp4
+*.txt
+*.pth
+*.onnx
+*.pt
+
+#/face/HFace/py_version/weights/
+#/face/HFace/cpp_version/model/
+#/person_instance_seg/model/101/
+#/person_instance_seg/model/personlab/
+#/person_instance_seg/model/person_keypoints_val2017.json
+/algo_qol/algo/detection/ultralytics_train/runs/
+/algo_qol/algo/detection/ultralytics_train/wandb/
+*.pkl
